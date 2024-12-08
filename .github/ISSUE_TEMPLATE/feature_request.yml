@@ -1,13 +1,14 @@
 name: Feature request
-description: Request an enhancement for Zathura
+description: Request an enhancement
 labels: [enhancement]
 body:
-
-  - type: markdown
+  - type: checkboxes
     attributes:
-      value: |
-        Before requesting: search [existing feature requests](https://github.com/pwmt/zathura/labels/enhancement)
-
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the requested feature.
+      options:
+      - label: I have searched the existing issues
+        required: true
   - type: textarea
     attributes:
       label: "Problem"
@@ -15,7 +16,6 @@ body:
       placeholder: "Option is not implemented. Option is useful because ..."
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: "Expected behavior"

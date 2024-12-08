@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a problem in Zathura
+description: Report a problem in zathura and its compoenents
 title: "[Bug]: "
 labels: ["bug"]
 body:
@@ -27,17 +27,19 @@ body:
       description: "Describe the behavior you expect."
     validations:
       required: true
-
   - type: input
     attributes:
-      label: "Zathura version (zathura --version)"
-      placeholder: "0.5.6 commit ffe311d"
+      label: "zathura version (zathura --version)"
     validations:
       required: true
-
   - type: input
     attributes:
-      label: "Zathura backend"
-      placeholder: "mupdf"
+      label: "girara version (zathura --version)"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "zathura backend"
+      placeholder: "poppler"
     validations:
       required: true
