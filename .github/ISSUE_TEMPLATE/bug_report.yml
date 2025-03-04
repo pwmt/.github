@@ -1,7 +1,6 @@
 name: Bug Report
 description: Report a problem in zathura and its compoenents
-title: "[Bug]: "
-labels: ["bug"]
+type: "Bug"
 body:
   - type: checkboxes
     attributes:
